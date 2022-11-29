@@ -1,0 +1,191 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* all similar content styling codes */
+ 
+  .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  
+  /* navbar styling */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky {
+    padding: 15px 0;
+    background:#e29f3b;
+  }
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .navbar .logo a span {
+    color:#e29f3b;
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky .logo a span {
+    color: #000;
+  }
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li a:hover {
+    color: #e29f3b;
+  }
+  .navbar.sticky .menu li a:hover {
+    color: #fff;
+  }
+  .navbar.sticky .menu li a{
+    color: #fff;
+  }
+  /* menu btn styling */
+  .menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+  .scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #000;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #e29f3b;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .scroll-up-btn:hover {
+    filter: brightness(90%);
+  }
+  
+  /* home section styling */
+  .home {
+    display: flex;
+    background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center;
+    background-color: #111;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .home .max-width {
+    width: 100%;
+    display: flex;
+  }
+  .home .max-width .row {
+    margin-right: 0;
+  }
+  .home .home-content .text-1 {
+    font-size: 27px;
+  }
+  .home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: rgb(205, 196, 207);
+  }
+  .home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+  .home .home-content .text-3 span {
+    color:#e29f3b;
+    font-weight: 500;
+  }
+  .home .home-content a {
+    display: inline-block;
+    background: #e29f3b;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #e29f3b;
+    transition: all 0.3s ease;
+  }
+  .home .home-content a:hover {
+    color:#e29f3b;
+    background: none;
+  }
+
+  .home__icon_cont {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.home__icon_cont i {
+    color:white;
+    font-size: 30px;
+  
+}
+.home-content .home__icon_cont a{
+    background:transparent;
+    border: none;
+    padding: 3px;
+}

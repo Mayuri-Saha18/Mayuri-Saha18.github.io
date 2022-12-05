@@ -261,6 +261,16 @@ section .title::after{
 
 
 /* skills section styling */
+.skills-images img {
+  height: 140px;
+  width: 140px;
+  border-radius: 5%;
+  transition: all 0.3s ease;
+}
+.skills-images img:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 110%;
+}
 .skills .title::after{
   content: "what i know";
 }

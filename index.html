@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mayuri Saha portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://unpkg.com/github-calendar@2.3.1/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
 <body>
     <div class="scroll-up-btn"> 
@@ -36,7 +38,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Mayuri Saha</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-3">And I'm a <span class="typing">Full Stack Web-Developer</span></div>
                 <a href="" download>Resume</a>
                 <div class="home__icon_cont">
                     <a href="https://github.com/Mayuri-Saha18" target="_blank">
@@ -50,6 +52,54 @@
         </div>
     </section>
 
+     <!-- about section start -->
+     <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profilephoto.png" alt="myimage">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Mayuri and I'm a <span class="typing-2">Full Stack Web-Developer</span></div>
+                    <p>
+                        A passionate and motivated Full Stack Web Developer, Contributes to team success through hard
+                        work and excellent organizational skills. A clear understanding of Websites and training in the
+                        Backend and Frontend. Looking for a challenging role in industry to utilize my skills and learn.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            </div>
+            </section>
+
+            <!-- Github calender Information -->
+    <section class="calender" id="calender">    
+        <div class="max-width">
+            <h2 class="title">Github Stats</h2>
+            <div class="serve-content">
+                <div class="card1">
+                    <img src="https://github-readme-stats.vercel.app/api?username=mayuri-saha18&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mayuri-saha18&theme=dark&hide_border=false" alt="">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayuri-saha18&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
+                </div>
+                    <!-- github calender -->
+                <div class="cardcal" style=" color: #e29f3b;">
+                    <!-- github-calendar div -->
+                    loading stuff here
+                </div>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
+<script>
+    GitHubCalendar(".cardcal", "Mayuri-Saha18");
+    GitHubCalendar(".cardcal", "Mayuri-Saha18", { responsive: true });
+</script>

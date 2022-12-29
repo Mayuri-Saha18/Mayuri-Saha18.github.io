@@ -10,8 +10,7 @@
   html {
     scroll-behavior: smooth;
   }
-  
-  /* custom scroll bar */
+  /* custom  */
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -21,12 +20,9 @@
   ::-webkit-scrollbar-thumb {
     background: #888;
   }
-  
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  
-  /* all similar content styling codes */
   section{
     padding: 100px 0;
 }
@@ -74,8 +70,6 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-  
-  /* navbar styling */
   .navbar {
     position: fixed;
     width: 100%;
@@ -126,7 +120,6 @@ section .title::after{
   .navbar.sticky .menu li a{
     color: #fff;
   }
-  /* menu btn styling */
   .menu-btn {
     color: #fff;
     font-size: 23px;
@@ -160,8 +153,6 @@ section .title::after{
   .scroll-up-btn:hover {
     filter: brightness(90%);
   }
-  
-  /* home section styling */
   .home {
     display: flex;
     background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center;
@@ -213,7 +204,6 @@ section .title::after{
     color:#e29f3b;
     background: none;
   }
-
   .home__icon_cont {
     margin-top: 10px;
     display: flex;
@@ -223,15 +213,12 @@ section .title::after{
 .home__icon_cont i {
     color:white;
     font-size: 30px;
-  
 }
 .home-content .home__icon_cont a{
     background:transparent;
     border: none;
     padding: 3px;
 }
-
-/* about section styling */
 .about .title::after{
   content: "who i am";
 }
@@ -258,9 +245,6 @@ section .title::after{
 .about .about-content .right p{
   text-align: justify;
 }
-
-
-/* skills section styling */
 .skills-images img {
   height: 140px;
   width: 140px;
@@ -346,12 +330,9 @@ section .title::after{
 .skills-content .right .mysql::before{
   width: 70%;
 }
-
-/* github section styling */
 .calender .title::after {
   content: "Calender";
 }
-
 .serv-content{
   width: 90%;
   margin: auto;
@@ -361,7 +342,6 @@ section .title::after{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100%; */
   gap: 20px;
   margin-bottom: 2%;
 }

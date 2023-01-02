@@ -217,6 +217,9 @@ section .title::after{
     border: none;
     padding: 3px;
 }
+.about .title::after {
+  content: "Who I am";
+}
 .about .about-content .left{
   width: 45%;
 }
@@ -239,6 +242,40 @@ section .title::after{
 }
 .about .about-content .right p{
   text-align: justify;
+}
+.skills .title::after {
+  content: "What I know";
+}
+.skils-logos {
+  height: 300px;
+  margin-left: 8%;
+  margin-right: 8%;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-gap: 6px;
+  /* grid: 60px 60px ; */
+  justify-content: space-around;
+  place-items: center;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.skils-logos span {
+  /* display: flex; */
+  padding: 10px;
+}
+.skils-logos span p {
+  font-size: 18px;
+  font-weight: 600;
+  color:black;
+}
+
+.skils-logos img {
+  /* background-color: lavender; */
+  height: 70px;
+  width: 80px;
+  margin: 8px;
 }
 .serv-content{
   width: 90%;

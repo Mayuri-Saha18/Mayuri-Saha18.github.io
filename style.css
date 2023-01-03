@@ -30,7 +30,7 @@
     padding: 0 80px;
     margin: auto;
   }
-  .about, .skills{
+  .about, .skills,.projects{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content{
@@ -247,9 +247,12 @@ section .title::after{
   content: "What I know";
 }
 .skils-logos {
-  height: 300px;
-  margin-left: 8%;
-  margin-right: 8%;
+  width:95%;
+  border:1px solid black;
+  height: 400px;
+  margin :auto;
+  /* margin-left: 8%;
+  margin-right: 8%; */
   display: grid;
   grid-template-columns: repeat(6, 100px);
   grid-gap: 6px;
@@ -258,9 +261,7 @@ section .title::after{
   place-items: center;
   text-align: center;
   max-width: 100%;
-  margin-bottom: 20px;
 }
-
 .skils-logos span {
   /* display: flex; */
   padding: 10px;
@@ -270,12 +271,19 @@ section .title::after{
   font-weight: 600;
   color:black;
 }
-
 .skils-logos img {
-  /* background-color: lavender; */
-  height: 70px;
+  height: 80px;
   width: 80px;
-  margin: 8px;
+  margin: 6px;
+}
+.projects .title::after {
+  content: "See my work";
+}
+.work{
+  width:100%;
+  border:1px solid black;
+  margin: auto;
+  background-color: black;
 }
 .serv-content{
   width: 90%;

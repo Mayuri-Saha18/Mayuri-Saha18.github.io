@@ -544,6 +544,25 @@ a {
 .project-body{
   text-align: center;
 }
+.button__icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+ i {
+  font-weight: 500;
+}
+.button {
+  display: inline-block;
+  background-color: #e29f3b;
+  color: #fff;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* github */
 

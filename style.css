@@ -537,6 +537,15 @@ a {
     border: 1px solid red;
     padding: 10px;
 }
+.project-card img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.project-card img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
 .project-card:hover{
   transition: 1s;
     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
@@ -544,8 +553,6 @@ a {
 .project-body{
   text-align: center;
 }
-
- 
 .button {
   display: inline-block;
   background-color: #e29f3b;

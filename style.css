@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: auto;
   position: fixed;
-  background-color: #111;;
+  background-color: #111;
 }
 navbar {
   display: flex;
@@ -712,9 +712,16 @@ a {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.boxing>.title{
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
 .serve-content{
   /* border: 1px solid blue; */
   margin: auto;
+  margin-top: 20px;
 }
 .card1{
   /* border: 1px solid black; */
@@ -744,6 +751,7 @@ a {
   .serve-content{
     /* border: 1px solid blue; */
     margin: auto;
+    margin-top: 20px;
   }
   .card1{
     /* border: 1px solid black; */
@@ -774,6 +782,7 @@ a {
   .serve-content{
     /* border: 1px solid blue; */
     margin: auto;
+    margin-top: 20px;
   }
   .card1{
     /* border: 1px solid black; */
@@ -799,10 +808,11 @@ a {
 /* contact */
 .contact{
   background-color: #fff;
+  margin-top: 80px;
 }
 .heading1{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
  
 }
 .contact .row {

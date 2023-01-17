@@ -705,6 +705,94 @@ a {
 }
 
 /* github */
+.boxing{
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.serve-content{
+  /* border: 1px solid blue; */
+  margin: auto;
+}
+.card1{
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+.card1 img{
+  margin: auto;
+  
+  width: 30%;
+}
+.card2{
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+}
+
+@media all and (min-width:480px) and (max-width:1000px){
+  .boxing{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .serve-content{
+    /* border: 1px solid blue; */
+    margin: auto;
+  }
+  .card1{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 90%;
+    display: flex;
+  }
+  .card1 img{
+    margin: auto;
+    
+    width: 30%;
+  }
+  .card2{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+  }
+}
+@media all and (min-width:320px) and (max-width:479px){
+  .boxing{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .serve-content{
+    /* border: 1px solid blue; */
+    margin: auto;
+  }
+  .card1{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 95%;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .card1 img{
+    margin: auto;
+    width: 100%;
+  }
+  .card2{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
 
 
 
@@ -791,4 +879,91 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
+}
+@media all and (min-width:320px) and (max-width:479px){
+
+  .contact{
+    background-color: #fff;
+    width: 600px;
+  }
+  .heading1{
+    text-align: center;
+    margin-top: 40px;
+   
+  }
+  .contact .row {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #fff;
+  }
+  .contact .row .content {
+    margin-left: 15px;
+    flex: 1 1 30rem;
+    padding: 2rem 0;
+    padding-bottom: 0;
+    /* border:1px solid black; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .contact .row form {
+    flex: 1 1 45rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    /* border:1px solid black; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .message1{
+    font-size: 35px;
+  }
+  .contact .row form .box {
+    padding: 20px;
+    margin: 1rem 0;
+    background-color: rgb(33, 32, 32);
+    color:white;
+    transform: none;
+    font-size: 25px;
+    width: 100%;
+  }
+  .contact .row form .box::placeholder {
+    text-transform: capitalize;
+  }
+  .contact .row form .message {
+    height: 15rem;
+    resize: none;
+  }
+  .contact .row .content .title {
+    text-transform: uppercase;
+    color: black;
+    font-size: 35px;
+    padding-bottom: 1rem;
+  }
+  .contact .row .content .info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+    padding: 1rem 0;
+    font-weight: normal;
+  }
+  .contact .row .content .info h3 i {
+    margin-left: 20px;
+    padding-right: 1rem;
+    color: #e29f3b;
+  }
+  .btn{
+    color: white;
+      padding: 5px 10px;
+      background:  #e29f3b;
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 20px;
+      border-radius: 10px;
+      transition: 0.4s;
+      cursor: pointer;
+      outline: none;
+      border: none;
+  }
 }

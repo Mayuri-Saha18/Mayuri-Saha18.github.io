@@ -710,6 +710,7 @@ a {
   margin: auto;
   margin-top: 50px;
   background-color: #fff;
+  
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .boxing>.title{
@@ -746,6 +747,7 @@ a {
     margin: auto;
     margin-top: 50px;
     background-color: #fff;
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .serve-content{
@@ -777,6 +779,7 @@ a {
     margin-top: 50px;
     width: 600px;
     background-color: #fff;
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .serve-content{
@@ -828,6 +831,7 @@ a {
   flex: 1 1 30rem;
   padding: 2rem 0;
   padding-bottom: 0;
+  border-radius: 10px;
   /* border:1px solid black; */
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -836,6 +840,7 @@ a {
   padding: 1rem;
   margin: 1rem;
   margin-bottom: 2rem;
+  border-radius: 10px;
   /* border:1px solid black; */
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -914,6 +919,7 @@ a {
     flex: 1 1 30rem;
     padding: 2rem 0;
     padding-bottom: 0;
+    border-radius: 10px;
     /* border:1px solid black; */
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
@@ -922,6 +928,7 @@ a {
     padding: 1rem;
     margin: 1rem;
     margin-bottom: 2rem;
+    border-radius: 10px;
     /* border:1px solid black; */
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }

@@ -738,7 +738,7 @@ a {
 .card2{
   margin: auto;
   margin-top: 20px;
-  width: 90%;
+  width: 85%;
 }
 
 @media all and (min-width:480px) and (max-width:1000px){

@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: auto;
   position: fixed;
-  background-color: #111;
+  background-color: #292828;
 }
 navbar {
   display: flex;
@@ -191,7 +191,8 @@ section {
   nav{
     display: flex;
     flex-direction: column-reverse;
-    background-color: transparent;
+    background-color: #292828;
+    /* background-color: transparent; */
   }
 
   .logo{
@@ -575,6 +576,16 @@ a {
 
 .project-body p{
   margin-top: 10px;
+}
+.project-btns{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  /* border: 1px solid white; */
+}
+.space{
+  margin-bottom: 50px;
+  /* border: 1px solid white; */
 }
 @media all and (min-width:480px) and (max-width:1000px) {
   .project-section{

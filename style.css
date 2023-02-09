@@ -995,3 +995,16 @@ a {
       border: none;
   }
 }
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: #06d6a0;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}

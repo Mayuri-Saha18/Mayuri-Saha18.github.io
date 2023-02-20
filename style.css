@@ -257,7 +257,7 @@ section {
 
 /* ========== CSS for Subsection =================*/
 .sub-section {
-  padding: 60px;
+  padding: 50px;
   background-color: #fff;
   margin-top: 5%;
   /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
@@ -266,6 +266,9 @@ section {
 }
 .about-sec{
   display: flex;
+  margin: auto;
+  width: 90%;
+  /* border: 1px solid black; */
   justify-content: space-around;
 }
 .title{
@@ -281,7 +284,7 @@ section {
   color: black;
 }
 .sub-section p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: black;
 }

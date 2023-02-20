@@ -855,6 +855,8 @@ a {
 }
 .contact .row {
   display: flex;
+  margin: auto;
+  width: 90%;
   margin-top: 40px;
   align-items: center;
   justify-content: space-evenly;

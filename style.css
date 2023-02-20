@@ -551,6 +551,7 @@ a {
 .project-card img:hover {
   transform: scale(1.1);
   transition: 1s;
+  /* overflow: hidden; */
 }
 .project-card:hover{
   transition: 1s;

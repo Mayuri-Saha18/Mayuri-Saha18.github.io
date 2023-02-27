@@ -613,7 +613,7 @@ a {
 }
 .tech>img{
 
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 5px;
   margin-left: 5px;
   width: 10%;
@@ -684,9 +684,18 @@ a {
     width: 50%;
     /* border: 1px solid white; */
   }
-  .space{
-    margin-bottom: 10px;
-    /* border: 1px solid white; */
+  
+  .tech{
+    display: flex;
+    margin:left;
+    gap: 10px;
+  }
+  .tech>img{
+  
+    /* border: 1px solid green; */
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 10%;
   }
 
 }
@@ -759,9 +768,18 @@ a {
     width: 50%;
     /* border: 1px solid white; */
   }
-  .space{
-    margin-bottom: 50px;
-    /* border: 1px solid white; */
+  
+  .tech{
+    display: flex;
+    margin:left;
+    gap: 10px;
+  }
+  .tech>img{
+  
+    /* border: 1px solid green; */
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 10%;
   }
 
 }

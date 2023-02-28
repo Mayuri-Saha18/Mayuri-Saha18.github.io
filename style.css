@@ -595,19 +595,19 @@ a {
   /* border: 1px solid white; */
 }
 
-.space2{
-  margin-bottom: 75px;
+.space1{
+  margin-top: 50px;
   /* border: 1px solid white; */
 }
-.space{
-  margin-bottom: 30px;
+.space2{
+  margin-top: 10px;
   /* border: 1px solid white; */
 }
 .space3{
-  margin-bottom: 70px;
+  margin-top: 50px;
 }
-.space1{
-  margin-bottom: 70px;
+.space4{
+  margin-top: 50px;
 }
 
 .tech{

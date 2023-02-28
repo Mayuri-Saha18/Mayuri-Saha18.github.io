@@ -594,20 +594,22 @@ a {
   width: 50%;
   /* border: 1px solid white; */
 }
-.space{
-  margin-bottom: 30px;
-  /* border: 1px solid white; */
-}
+
 .space2{
   margin-bottom: 75px;
   /* border: 1px solid white; */
 }
-.space1{
-  margin-bottom: 70px;
+.space{
+  margin-bottom: 30px;
+  /* border: 1px solid white; */
 }
 .space3{
   margin-bottom: 70px;
 }
+.space1{
+  margin-bottom: 70px;
+}
+
 .tech{
   display: flex;
   margin:left;

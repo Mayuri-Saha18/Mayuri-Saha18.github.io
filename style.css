@@ -276,7 +276,7 @@ section {
 .title{
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 60px;
   padding-bottom: 20px;
@@ -399,7 +399,7 @@ a {
   .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 60px;
     padding-bottom: 20px;
@@ -450,7 +450,7 @@ a {
 .skillTitle {
   color:#111;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   margin: auto;
   text-align: center;
   font-family: "Work Sans", sans-serif;
@@ -529,6 +529,9 @@ a {
   background-color: #111;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.project-section>h2{
+  font-size: 30px;
 }
 .project-container{
   display: grid;
@@ -900,6 +903,7 @@ a {
 .heading1{
   text-align: center;
   margin-top: 10px;
+  font-size: 30px;
  
 }
 .contact .row {

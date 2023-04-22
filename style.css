@@ -577,7 +577,7 @@ a {
   padding: 1rem;
   border-radius: .5rem;
 }
-.space2>a {
+a {
 
   text-decoration: none;
   cursor: pointer;
@@ -601,12 +601,11 @@ a {
 .project-btns{
   display: flex;
   justify-content: space-between;
-
   width: 50%;
   /* border: 1px solid white; */
 }
 .space1{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .space2{
 
@@ -614,7 +613,7 @@ a {
   /* border: 1px solid white; */
 }
 .space3{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .space4{

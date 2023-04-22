@@ -96,9 +96,9 @@ h3 {
   font-size: 35px;
 }
 
-p {
+.hero-text>p {
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
 }
 
@@ -578,7 +578,7 @@ a {
   border-radius: .5rem;
 }
 .space2>a {
-  
+
   text-decoration: none;
   cursor: pointer;
 }

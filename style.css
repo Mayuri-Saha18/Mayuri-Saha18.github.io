@@ -588,16 +588,15 @@ a {
 
   font-size:20px;
 
-  font-weight: 700;
+  font-weight: 500;
 
   color:#e29f3b;
 }
 
-/* .projp{
-  font-size:18px;
- margin-top: 10px;
+.project-body>p{
+  font-size:16px;
 
-} */
+} 
 .project-btns{
   display: flex;
   justify-content: space-between;

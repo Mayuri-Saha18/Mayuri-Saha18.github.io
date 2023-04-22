@@ -582,14 +582,20 @@ a {
   cursor: pointer;
 }
 .project-body h1 {
+
   margin-top: 10px;
-  font-size: 20px;
+
+  font-size:20px;
+
   font-weight: 700;
+
   color:#e29f3b;
 }
 
 .project-body p{
-  font-size: 18px;
+
+  font-size:18px;
+
  margin-top: 10px;
 }
 .project-btns{

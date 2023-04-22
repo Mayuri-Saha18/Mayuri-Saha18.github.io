@@ -577,15 +577,16 @@ a {
   padding: 1rem;
   border-radius: .5rem;
 }
-a {
+.space2>a {
+  
   text-decoration: none;
   cursor: pointer;
 }
-.project-body>h1 {
+.project-body>h1{
 
   margin-top: 10px;
 
-  font-size: 18px;
+  font-size:20px;
 
   font-weight: 700;
 
@@ -594,7 +595,7 @@ a {
 
 .project-body>p{
 
-  font-size: 16px;
+  font-size:18px;
 
  margin-top: 10px;
 }

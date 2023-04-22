@@ -585,7 +585,7 @@ a {
 
   margin-top: 10px;
 
-  font-size:20px;
+  font-size: 18px;
 
   font-weight: 700;
 
@@ -594,27 +594,31 @@ a {
 
 .project-body p{
 
-  font-size:18px;
+  font-size: 16px;
 
  margin-top: 10px;
 }
 .project-btns{
   display: flex;
   justify-content: space-between;
+
   width: 50%;
   /* border: 1px solid white; */
 }
 
 .space1{
-  margin-top: 50px;
+
+  margin-top:30px;
   /* border: 1px solid white; */
 }
 .space2{
-  margin-top: 30px;
+
+  margin-top:30px;
   /* border: 1px solid white; */
 }
 .space3{
-  margin-top: 30px;
+
+  margin-top:30px;
 }
 .space4{
   margin-top: 76px;

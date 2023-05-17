@@ -594,7 +594,8 @@ a {
 }
 
 .project-body>p{
-  font-size:16px;
+  margin-top: 10px;
+  font-size:18px;
 
 } 
 .project-btns{
